@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient( rgb(12, 0, 0), rgb(166, 1, 242) )  ;
+    height: 100vh;
+}
+
+
+.navbar{
+    padding: 4vh;
+    position: relative;
+}
+.navbar, .navbar-content{
+    display: flex;
+    justify-content: end;
+}
+.navbar-content p{
+    padding: 2vh;
+    justify-content: space-between ;
+   font-size: 3vh;
+   cursor: pointer;
+   color: white;
+   font-family: sans-serif;
+   
+}
+.navbar-content button{
+    color: rgb(255, 255, 255);
+    background:linear-gradient(rgb(241, 156, 20), rgb(166, 1, 242));
+    font-size:3vh;
+    border-radius: 20px 0px ;
+    margin-top: 9px;
+    margin-left: 6px;
+    height: 5vh;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.navbar-content p:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+
+.navbar-content button:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+
+
+
+.logo{
+    color: white;
+          margin-right: 100vh;
+          margin-top: 1vh;
+          font-family: sans-serif;
+}
+
+.Content-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction{
+    color: white;
+    padding: 10vh;
+    font-size: large;
+    font-family: sans-serif;
+    line-height: 5vh;
+    margin-bottom: -5vh;
+    
+}
+
+.btnjoin{
+    background:linear-gradient(rgb(241, 156, 20), rgb(166, 1, 242));
+    color: white;
+    width: 15vh;
+    height: 9vh;
+    border-color: white;
+    border-radius: 20px;
+    margin-left:20vh ;
+    margin-top: -100px;
+
+}
+.btnjoin P{
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.btnplace{
+    margin-left: 10vh;
+}
+.img img{
+    width: 80vh;
+    height: 60vh;
+    margin-top: -60vh;
+    margin-left: 122vh;
+    border-radius: 20px;
+}
+
+
+.header{
+    color: white;
+    font-family: sans-serif;
+    text-align: start;
+    margin-left: 8vh;
+    justify-content: space-between;
+    line-height: 3vh;
+
+}
+/*Styling the Log-in Page*/
+#log{
+    display: flex;
+    flex-direction: column;
+    line-height: 4vh;
+    align-items: center;
+}
+
+.Bar1{
+    width: 40vh;
+    height: 8vh;
+    margin-bottom: 2vh;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-top: 10vh;
+}
+
+.Bar2{
+    width: 40vh;
+    height: 8vh;
+    margin-bottom: 2vh;
+    font-size: larger;
+    font-family: sans-serif;}
+
+.logbtn{
+    width: 15vh;
+    height: 5vh;
+    background:linear-gradient(rgb(241, 156, 20), rgb(166, 1, 242));
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+}
+.container{
+    display: flex;
+    width: 50%;
+    height: 70%;
+   justify-content: center;
+   margin-top: 25vh;
+   margin-left: 50vh;
+   /*border: none; */
+}
+
+.link{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-top: 2vh;
+}
+.btncont{
+    background:linear-gradient(rgb(241, 156, 20), rgb(166, 1, 242));
+    width: 40vh;
+    color: white;
+    border-radius:5px;
+    height: 8vh;
+    padding: 2vh;
+    font-size: large;
+    margin: 1vh;
+    
+}
